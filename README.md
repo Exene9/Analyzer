@@ -6,11 +6,7 @@ The lexer analyzer program is designed to tokenize text files into meaningful un
 -Tokenize text files based on predefined rules\
 -Writes and reads text files\
 -No command line required\
-# How to use
--Program reads and writes to predefined files that can be found in the code and utilities folder\
--Write the desire string or code in "input_code.txt"\
--Run debug\
--The tokenization if successful will be available on "output.txt"
+
 # Token types
 The lexer recognizes the following token types:
 
@@ -20,3 +16,12 @@ The lexer recognizes the following token types:
 **Separator:** Symbols used to separate different elements of code.\
 **Integer:** Whole numbers.\
 **Real Number: **Numbers with decimal points.
+
+# Usage
+-Program reads and writes to predefined files that can be found in the code and utilities folder\
+-Write the desire string or code in "input_code.txt"\
+-Run debug\
+-The tokenization if successful will be available on "output.txt"
+
+# Dependencies
+-C++ Compiler with support for C++11 or later
